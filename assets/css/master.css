@@ -2990,7 +2990,7 @@ transition: background-position 3s ease-in,transform 2s ease-out;transition: bac
 	.slideshow .btn,
 	.slideshow .title,
 	.slideshow .sub-title{
-		transition: all 0.35s;
+		transition: all 0.2s;
 	}
 	.slideshow .btn:nth-child(1){
 		transition-delay: 0.5s;
@@ -3443,6 +3443,14 @@ transition: background-position 3s ease-in,transform 2s ease-out;transition: bac
 }
 .blog-layout .blog-layout-title-image{
 	padding-top: 65px;
+}
+.blog-layout .slick-list{
+	border-radius: 30px;
+	overflow: hidden;
+}
+.blog-layout .slick-prev, 
+.blog-layout .slick-next{
+	display: none !important;
 }
 @media screen and (max-width: 1260px){
 	.blog-layout{
