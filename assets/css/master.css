@@ -3756,3 +3756,12 @@ body .float-right-icon #scroll-to-top:hover {
 		background-color: #ddd;
 	}
 }
+nav.navbar.bootsnav ul.nav > li > a.action-buynow{
+	color: #FF008A !important;	
+	font-weight: 800 !important;
+	text-decoration: underline !important;
+    text-underline-offset: 5px !important;
+}
+nav.navbar.bootsnav ul.nav > li > a.action-buynow:hover{
+	color: #ed6ab1 !important;
+}
